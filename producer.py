@@ -3,13 +3,13 @@ import json
 import time
 from kafka import KafkaProducer
 
-API_KEY = "5f49cb486e3860e9af33857d14afcf15"
+API_KEY = "<API-KEY>"
 CITIES = ["Nairobi", "Mombasa", "Kisumu", "Nakuru"]
 
 # Replace these with your Confluent Cloud credentials
-BOOTSTRAP_SERVERS = "pkc-921jm.us-east-2.aws.confluent.cloud:9092"
-KAFKA_API_KEY = "Z6ITGJJ4FUDXH4EW"
-KAFKA_API_SECRET = "6ju70XJbBnd07mmXjvNWBc7Tx3aYQGSiLRF82FNdbytS1vs/jcFKtpc0wskOQW1I"
+BOOTSTRAP_SERVERS = "<BOOTSTRAP-SERVER>"
+KAFKA_API_KEY = "<API-KEY>"
+KAFKA_API_SECRET = "<API-SECRET>"
 
 producer = KafkaProducer(
     bootstrap_servers=BOOTSTRAP_SERVERS,
